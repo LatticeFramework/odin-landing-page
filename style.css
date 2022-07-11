@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.random-information {
+
+}
+
+.inspiring-quote {
+    background-color: #E5E7EB;
+}
+
+.action-space {
+
+}
+
+.banner {
+    background-color: #3882F6;
+}
+
+.footer {
+    background-color: #1F2937;
+}
