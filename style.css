@@ -119,16 +119,75 @@ a {
 
 .inspiring-quote {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 400px 50px 400px;
+    margin: 0px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 800px;
+    text-align: left;
+}
+
+.quote-source {
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: auto;
+    color: #1F2937;
 }
 
 .action-space {
-
+    padding: 100px;
 }
 
 .banner {
     background-color: #3882F6;
+    max-width: 1500px;
+    max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 32px 124px;
+}
+
+.left-banner {
+    color: #E5E7EB;
+
+}
+
+.action-call {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.action-description {
+    margin: 0px;
+    padding: 0px;
+}
+
+#banner-button {
+    padding: 8px 32px;
+    margin: 0px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    border-width: 3px;
+    border-color: white;
+    font-weight: bold;
+    font-size: 16px;
+
 }
 
 .footer {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
 }
